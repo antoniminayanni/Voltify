@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo">🛍️ Electronics Shop</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Login</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="about.html">About Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <div class="contact-container">
+            <h2>We are here to help you</h2>
+            <p>
+                You can contact us through the form below or directly via
+                <span class="highlight">WhatsApp ✅</span>
+            </p>
+
+            <form id="contactForm">
+                <label for="name">Name</label>
+                <input type="text" id="name" placeholder="Enter your Name" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="example@email.com" required>
+
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" placeholder="Enter your Phone Number" required>
+
+                <label for="message">Your Message</label>
+                <textarea id="message" rows="5" placeholder="Write your message here ..." required></textarea>
+
+                <button type="submit" class="btn-primary">Send</button>
+            </form>
+
+            <a href="https://wa.me/201284871717?text=مرحبا%20اريد%20التواصل%20معكم" id="whatsappBtn"
+                class="btn-whatsapp" target="_blank">
+                💬 Send Your Message in WhatsApp
+            </a>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
